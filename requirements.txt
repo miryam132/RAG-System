@@ -1,8 +1,7 @@
 llama-index-core
 llama-index-llms-google-genai
-llama-index-embeddings-huggingface
+llama-index-embeddings-google-genai
 llama-index-vector-stores-chroma
 chromadb
-sentence-transformers
 streamlit
 python-dotenv
