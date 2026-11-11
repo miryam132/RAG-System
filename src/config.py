@@ -3,6 +3,10 @@
 כל המספרים שכדאי לשחק איתם (chunk_size, top_k וכו') נמצאים כאן,
 כדי שבשלב הבדיקות נוכל לשנות אותם במקום אחד.
 """
+
+import truststore
+truststore.inject_into_ssl()
+
 import os
 from pathlib import Path
 
