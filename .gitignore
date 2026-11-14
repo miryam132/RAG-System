@@ -4,3 +4,11 @@ chroma_db/
 __pycache__/
 *.pyc
 storage/
+
+# Local test outputs and distribution archives
+.pytest_cache/
+tests/live-results.json
+tests/results.xml
+tests/test-output.txt
+tests/tested-environment.txt
+submission-support.zip
